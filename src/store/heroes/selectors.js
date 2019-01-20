@@ -1,1 +1,1 @@
-export const getHeroes = ({heroes}) => heroes;
+export const getHeroes = ({ heroes }) => heroes;
