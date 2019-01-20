@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import Heroes from './components/Heroes/Heroes';
 
 class App extends Component {
   render() {
-    return <div />;
+    return <Heroes />;
   }
 }
 
