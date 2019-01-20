@@ -11,7 +11,7 @@ const heroes = (state = initialState, action) => {
     case types.GET_HEROS:
       return state;
     case types.ADD_HERO:
-      return [...state, ...action.payload];
+      return [...state, action.payload];
     default:
       return state;
   }
